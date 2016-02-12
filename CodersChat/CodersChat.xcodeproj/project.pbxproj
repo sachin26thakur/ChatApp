@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7439B5B11C6DE0E0004A724D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7439B5B01C6DE0E0004A724D /* main.m */; };
+		7439B5B41C6DE0E0004A724D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7439B5B31C6DE0E0004A724D /* AppDelegate.m */; };
+		7439B5B71C6DE0E0004A724D /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7439B5B61C6DE0E0004A724D /* SignUpViewController.m */; };
+		7439B5BA1C6DE0E0004A724D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7439B5B81C6DE0E0004A724D /* Main.storyboard */; };
+		7439B5BC1C6DE0E0004A724D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7439B5BB1C6DE0E0004A724D /* Assets.xcassets */; };
+		A971262D1C6DE5A1000B62E8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A971262C1C6DE5A1000B62E8 /* LoginViewController.m */; };
+		A97126301C6DE5BA000B62E8 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A971262F1C6DE5BA000B62E8 /* ContactsViewController.m */; };
+		A97126331C6DE5E7000B62E8 /* ChatAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97126321C6DE5E7000B62E8 /* ChatAreaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7439B5AC1C6DE0E0004A724D /* CodersChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodersChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7439B5B01C6DE0E0004A724D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7439B5B21C6DE0E0004A724D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		7439B5B31C6DE0E0004A724D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		7439B5B51C6DE0E0004A724D /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ../SignUpViewController.h; sourceTree = "<group>"; };
+		7439B5B61C6DE0E0004A724D /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = ../SignUpViewController.m; sourceTree = "<group>"; };
+		7439B5B91C6DE0E0004A724D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7439B5BB1C6DE0E0004A724D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7439B5C01C6DE0E0004A724D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7439B5C91C6DE0E0004A724D /* CodersChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodersChatTests.m; sourceTree = "<group>"; };
+		7439B5CB1C6DE0E0004A724D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7439B5D41C6DE0E0004A724D /* CodersChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodersChatUITests.m; sourceTree = "<group>"; };
+		7439B5D61C6DE0E0004A724D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A971262B1C6DE5A1000B62E8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A971262C1C6DE5A1000B62E8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A971262E1C6DE5BA000B62E8 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		A971262F1C6DE5BA000B62E8 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		A97126311C6DE5E7000B62E8 /* ChatAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatAreaViewController.h; sourceTree = "<group>"; };
+		A97126321C6DE5E7000B62E8 /* ChatAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatAreaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7439B5A91C6DE0E0004A724D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7439B5A31C6DE0E0004A724D = {
+			isa = PBXGroup;
+			children = (
+				7439B5AE1C6DE0E0004A724D /* CodersChat */,
+				7439B5C81C6DE0E0004A724D /* CodersChatTests */,
+				7439B5D31C6DE0E0004A724D /* CodersChatUITests */,
+				7439B5AD1C6DE0E0004A724D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7439B5AD1C6DE0E0004A724D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7439B5AC1C6DE0E0004A724D /* CodersChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7439B5AE1C6DE0E0004A724D /* CodersChat */ = {
+			isa = PBXGroup;
+			children = (
+				A971262A1C6DE4EB000B62E8 /* Documentation */,
+				A97126291C6DE4DA000B62E8 /* Presentation */,
+				A97126281C6DE4AB000B62E8 /* Source */,
+				7439B5BB1C6DE0E0004A724D /* Assets.xcassets */,
+				7439B5C01C6DE0E0004A724D /* Info.plist */,
+				7439B5AF1C6DE0E0004A724D /* Supporting Files */,
+			);
+			path = CodersChat;
+			sourceTree = "<group>";
+		};
+		7439B5AF1C6DE0E0004A724D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7439B5B01C6DE0E0004A724D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7439B5C81C6DE0E0004A724D /* CodersChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				7439B5C91C6DE0E0004A724D /* CodersChatTests.m */,
+				7439B5CB1C6DE0E0004A724D /* Info.plist */,
+			);
+			path = CodersChatTests;
+			sourceTree = "<group>";
+		};
+		7439B5D31C6DE0E0004A724D /* CodersChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7439B5D41C6DE0E0004A724D /* CodersChatUITests.m */,
+				7439B5D61C6DE0E0004A724D /* Info.plist */,
+			);
+			path = CodersChatUITests;
+			sourceTree = "<group>";
+		};
+		A97126281C6DE4AB000B62E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7439B5B51C6DE0E0004A724D /* SignUpViewController.h */,
+				7439B5B61C6DE0E0004A724D /* SignUpViewController.m */,
+				7439B5B21C6DE0E0004A724D /* AppDelegate.h */,
+				7439B5B31C6DE0E0004A724D /* AppDelegate.m */,
+				7439B5B81C6DE0E0004A724D /* Main.storyboard */,
+				A971262B1C6DE5A1000B62E8 /* LoginViewController.h */,
+				A971262C1C6DE5A1000B62E8 /* LoginViewController.m */,
+				A971262E1C6DE5BA000B62E8 /* ContactsViewController.h */,
+				A971262F1C6DE5BA000B62E8 /* ContactsViewController.m */,
+				A97126311C6DE5E7000B62E8 /* ChatAreaViewController.h */,
+				A97126321C6DE5E7000B62E8 /* ChatAreaViewController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A97126291C6DE4DA000B62E8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A971262A1C6DE4EB000B62E8 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7439B5AB1C6DE0E0004A724D /* CodersChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7439B5D91C6DE0E0004A724D /* Build configuration list for PBXNativeTarget "CodersChat" */;
+			buildPhases = (
+				7439B5A81C6DE0E0004A724D /* Sources */,
+				7439B5A91C6DE0E0004A724D /* Frameworks */,
+				7439B5AA1C6DE0E0004A724D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodersChat;
+			productName = CodersChat;
+			productReference = 7439B5AC1C6DE0E0004A724D /* CodersChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7439B5A41C6DE0E0004A724D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GlobalLogic;
+				TargetAttributes = {
+					7439B5AB1C6DE0E0004A724D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7439B5A71C6DE0E0004A724D /* Build configuration list for PBXProject "CodersChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7439B5A31C6DE0E0004A724D;
+			productRefGroup = 7439B5AD1C6DE0E0004A724D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7439B5AB1C6DE0E0004A724D /* CodersChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7439B5AA1C6DE0E0004A724D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7439B5BC1C6DE0E0004A724D /* Assets.xcassets in Resources */,
+				7439B5BA1C6DE0E0004A724D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7439B5A81C6DE0E0004A724D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A971262D1C6DE5A1000B62E8 /* LoginViewController.m in Sources */,
+				A97126331C6DE5E7000B62E8 /* ChatAreaViewController.m in Sources */,
+				7439B5B71C6DE0E0004A724D /* SignUpViewController.m in Sources */,
+				A97126301C6DE5BA000B62E8 /* ContactsViewController.m in Sources */,
+				7439B5B41C6DE0E0004A724D /* AppDelegate.m in Sources */,
+				7439B5B11C6DE0E0004A724D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7439B5B81C6DE0E0004A724D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7439B5B91C6DE0E0004A724D /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7439B5D71C6DE0E0004A724D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7439B5D81C6DE0E0004A724D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7439B5DA1C6DE0E0004A724D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodersChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.botTestApp.CodersChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7439B5DB1C6DE0E0004A724D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodersChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.botTestApp.CodersChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7439B5A71C6DE0E0004A724D /* Build configuration list for PBXProject "CodersChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7439B5D71C6DE0E0004A724D /* Debug */,
+				7439B5D81C6DE0E0004A724D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7439B5D91C6DE0E0004A724D /* Build configuration list for PBXNativeTarget "CodersChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7439B5DA1C6DE0E0004A724D /* Debug */,
+				7439B5DB1C6DE0E0004A724D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7439B5A41C6DE0E0004A724D /* Project object */;
+}
